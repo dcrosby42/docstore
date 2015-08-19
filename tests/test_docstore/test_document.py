@@ -9,8 +9,10 @@ class TestDocument:
 
   def test_content(self):
     assert self.doc.content == "initial content"
-    self.doc.content = "new content"
-    assert self.doc.content == "new content"
+
+    c2 = { "new": [ "content", "strings" ] }
+    self.doc.content = c2
+    assert self.doc.content == c2
 
 
     
