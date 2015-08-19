@@ -24,4 +24,5 @@ clean:
 ex1:
 	@echo $(TAG)Running docstore.examples.ex1$(END)
 	python -m docstore.examples.ex1
+	@echo
 
