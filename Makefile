@@ -20,3 +20,8 @@ clean:
 	find docstore -name '__pycache__' -delete -print -o -name '*.pyc' -delete -print
 	find tests -name '__pycache__' -delete -print -o -name '*.pyc' -delete -print
 	@echo
+
+ex1:
+	@echo $(TAG)Running docstore.examples.ex1$(END)
+	python -m docstore.examples.ex1
+
